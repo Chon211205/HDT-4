@@ -47,5 +47,12 @@ public class SingleLinkedList<T> extends AbstractList<T> {
         size--;
         return value;
     }   
-    
+
+    public T getValue(){
+        return head.data;
+    }
+
+    public int getSize(){
+        return size;
+    }
 }
