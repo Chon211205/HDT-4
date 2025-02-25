@@ -62,5 +62,11 @@ public class DoubleLinkedList<T> extends AbstractList<T>{
         return value;
     }
 
-    
+    public T getValue(){
+        return head.data;
+    }
+
+    public int getSize(){
+        return size;
+    }
 }
